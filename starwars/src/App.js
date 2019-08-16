@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import StarWarsCard from "./components/StarWarsCard.js";
-import './App.css';
+import './App.scss';
 
 const App = () => {
   const [results, setResults] = useState([]);

@@ -5,9 +5,9 @@ function StarWarsCard(props) {
 return(
     <div className="card-container">
         <h3 className="name">{props.result.name}</h3>
-        <div className="gender">{props.result.gender}</div>
-        <div className="birthYear">{props.result.birth_year}</div>
-        <div className="height">{props.result.height}</div>
+        <div className="gender">Gender: {props.result.gender}</div>
+        <div className="birthYear">Birth Year: {props.result.birth_year}</div>
+        <div className="height">Height: {props.result.height}</div>
     </div>
     );
 }
